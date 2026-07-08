@@ -10,8 +10,15 @@ body {
     font-family: Georgia, serif;
 }
 
-header,
+
 footer {
+    background: #333;
+    color: white;
+    padding: 5px;
+
+}
+
+header{
     background: #333;
     color: white;
     padding: 5px;
