@@ -15,11 +15,14 @@ footer {
     background: #333;
     color: white;
     padding: 5px;
+
 }
 
-header p, footer p, h1{
+#course-title, footer p, h1{
     text-align: center;
     padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 p{
