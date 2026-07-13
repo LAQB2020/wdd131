@@ -1,0 +1,39 @@
+@media  screen and (min-width: 500px){
+    section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    }   
+
+    #course-title{
+        font-size: 2.5rem;
+    }
+    #menu{
+        display: none;
+    }
+
+    nav{
+    text-align: right;
+    width: 70%;
+    background-color: var(--primary-color--);
+    
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background: var(--secondary-colo--);
+    }
+
+    .navigation a{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .stuff{
+        margin: 1rem auto;
+    }
+
+    header{
+        display: flex;
+    }
+}
