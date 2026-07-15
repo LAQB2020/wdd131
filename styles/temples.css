@@ -108,7 +108,7 @@ footer{
 }
 
 #menu.open::before {
-	content: "❌";
+	content:  "✖";
 }
 
 .open {
