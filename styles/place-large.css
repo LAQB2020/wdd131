@@ -1,0 +1,51 @@
+@media screen and (min-width: 600px){
+main{
+    position: relative;
+}
+
+section{
+
+background-color: rgba(255,255,255,.7);
+}    
+
+.data{
+    width: 250px;
+    position:absolute;
+    top:15px;
+    left:15px;
+    padding: 0;
+    
+
+}
+.data-grid{
+    gap: 5px;
+}
+.data h2, .weather h2{
+    margin: 7px;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    background-color: var(--primary-color--);
+    color: var(--third-color--);
+    position: relative;
+    top:5px;
+    left: -20px;
+}
+
+.weather{
+    width: 250px;
+    position:absolute;
+    bottom: 18px;
+    right: 15px;
+    padding: 0;
+    
+}
+
+#icon-container {
+    position: absolute;
+    bottom:82px;
+    left: 120px;
+}
+
+
+}
