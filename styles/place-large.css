@@ -1,4 +1,5 @@
 @media screen and (min-width: 600px){
+
 main{
     position: relative;
 }
@@ -42,10 +43,14 @@ background-color: rgba(255,255,255,.7);
 }
 
 #icon-container {
-    position: absolute;
-    bottom:82px;
-    left: 120px;
+    display: none;
+}
+
+.weather h2::after{
+    content: " ⛅";
+}
+
 }
 
 
-}
+    
