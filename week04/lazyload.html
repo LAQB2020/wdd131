@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy load</title>
+
+    <meta name="description" content="WDD 131  Dynamic Web Fundamentals  Luis Quezada. This is my lazy lastModified page ">
+    <meta name="author" content="Luis Quezada">
+    <link rel="stylesheet" href="./styles/lazyload.css">
+    <script src="./scripts/lazyload.js" defer ></script>
+</head>
+<body>
+
+    <header>
+        <h1>Load Demostration</h1>
+    </header>
+
+    <main>
+        <picture>
+            <img src="../images/hermosillo.jpeg" alt="Place holder" loading="lazy" width="400" height="600">
+        </picture>
+        
+            
+        <picture>
+            <img src="../images/colonia-juarez.jpeg" alt="Place holder" loading="lazy" width="400" height="600">
+        </picture>
+            
+        <picture>
+            <img src="../images/manti.jpeg" alt="Place holder" loading="lazy" width="400" height="600">
+        </picture>
+            
+        <picture>
+            <img src="../images/mexico-city.jpeg" alt="Place holder" loading="lazy" width="400" height="600">
+        </picture>
+            
+        <picture>
+            <img src="../images/provo.jpeg" alt="Place holder" loading="lazy" width="400" height="600">
+        </picture>
+            
+        <picture>
+            <img src="../images/tijuana.jpeg" alt="Place holder" loading="lazy" width="400" height="600">
+        </picture>
+    </main>
+
+    <footer>
+         <p>
+            © <span id="currentyear"></span> ❖ Luis Quezada ❖ Qro, México
+         </p>
+
+         <p id="lastModified"></p>
+    </footer>
+    
+</body>
+</html>
