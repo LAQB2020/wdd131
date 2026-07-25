@@ -117,6 +117,9 @@ grid.innerHTML = "";
     img.setAttribute("src", temple.imageUrl);
     img.setAttribute("alt", `${temple.templeName} Temple`);
     img.setAttribute("loading", "lazy");
+    img.setAttribute("decoding", "async");
+    img.setAttribute("width", "400");
+    img.setAttribute("height", "250");
 
     card.appendChild(name);
     card.appendChild(location);
@@ -124,7 +127,7 @@ grid.innerHTML = "";
     card.appendChild(area);
     card.appendChild(img);
 
-    document.querySelector(".res-grid").appendChild(card);
+    grid.appendChild(card);
   });
 }
 
