@@ -1,0 +1,129 @@
+:root{
+    --primary-color--:#1F3B5C;
+    --secondary-color--:#A7B1BE;
+    --third-color--:#E6E9EF;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin:  auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+header{
+    background: var(--primary-color--);
+    color: white;
+    padding: 5px; 
+    display:block;
+    text-align: center;
+}
+
+#course-title{
+    text-align: left;
+    padding: 5px;
+    font-size: 2rem;
+    width: 30%;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;     /* Centrado vertical */
+}
+
+
+
+footer{
+    background: var(--primary-color--);
+    color:var(--third-color--);
+    text-align: center;
+}
+
+/*------------Styling the FORM----------*/
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--secondary-color--);
+    padding: 0rem 2rem 2rem 2rem;
+    border-radius: 8px ;
+    border: 1px solid var(--primary-color--);
+}
+
+form label, form div{
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+form input[type="text"],
+form select,
+form textarea,
+form input[type="date"]{
+    display:block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: 0.5rem;
+    color: #555;
+    width: 100%;
+    max-width: 600px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"]{
+    margin-right: 6px;
+
+}
+
+.tittle{
+    font-size: 1.1rem;
+}
+.all-applied{
+    font-style: italic;
+}
+
+.optional{
+    color: #1F3B5C;
+}
+
+input[type="submit"]{
+    border: none;
+    background-image: linear-gradient(var(--primary-color--));
+    color: #fff;
+    border-radius: 6px;
+    padding: .6rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 1.5rem 0% .5rem 0%;
+    box-shadow: 1px 1px 4px #999;
+
+}
+
+
+
+
+
+@media  screen and (min-width: 500px){
+    
+    #course-title{
+        font-size: 2.5rem;
+    }
+    
+
+}
