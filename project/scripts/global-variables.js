@@ -6,7 +6,7 @@ window.App.projects = [
 
     featured: true,
 
-    type: ["aerospace", "academic"],
+    type: [ "academic"],
 
     projectName: "Volkswagen Hydrogen Challenge",
 
@@ -47,7 +47,7 @@ window.App.projects = [
 • Presented project milestones to company executives and state government representatives.
 `,
 
-    imageUrl: "images/projects/volkswagen.jpg",
+    imageUrl: "./images/volkswagen.webp",
 
     github: "",
 
@@ -105,7 +105,7 @@ window.App.projects = [
 • Completed the project as part of my Social Service at Instituto Politécnico Nacional.
 `,
 
-    imageUrl: "images/projects/flexible-landing-gear.jpg",
+    imageUrl: "./images/landing-gear.webp",
 
     github: "",
 
@@ -117,7 +117,7 @@ window.App.projects = [
 
     featured: true,
 
-    type: ["aerospace", "professional"],
+    type: ["aerospace", "engineering"],
 
     projectName: "Manufacturing Process Improvement",
 
@@ -158,7 +158,7 @@ window.App.projects = [
 • Participated in continuous improvement projects.
 `,
 
-    imageUrl: "images/projects/manufacturing.jpg",
+    imageUrl: "./images/itp-aero.webp",
 
     github: "",
 
@@ -212,7 +212,7 @@ window.App.projects = [
 • Built to showcase engineering experience, projects, and technical skills.
 `,
 
-    imageUrl: "images/projects/portfolio.jpg",
+    imageUrl: "./images/web-page.webp",
 
     github: "https://github.com/",
 
@@ -264,7 +264,7 @@ window.App.projects = [
 • Achieved high Lighthouse performance scores.
 `,
 
-    imageUrl: "images/projects/mexico.jpg",
+    imageUrl: "./images/country-page.webp",
 
     github: "",
 
@@ -314,7 +314,7 @@ window.App.projects = [
 • Improved user experience through responsive design.
 `,
 
-    imageUrl: "images/projects/reviews.jpg",
+    imageUrl: "./images/product-review.webp",
 
     github: "",
 
