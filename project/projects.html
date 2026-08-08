@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 Final Project</title>
+
+    <meta name="description" content="WDD 131  Dynamic Web Fundamentals  Luis Quezada. This is my final project Luis Quezada Engineering Portfolio ">
+    <meta name="author" content="Luis Quezada">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    
+    <script src="./scripts/projects.js" defer ></script>
+    <script src="./scripts/footer.js" defer ></script>
+    <script src="./scripts/global-variables.js" defer ></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./images/logo.svg" alt="Mylogo">
+        <button type="button" id="menu"></button>        
+        <nav>
+            <ul class="navigation">
+                <li><a href="./index.html" id="home">Home</a></li>
+                <li><a href="./experience.html" id="experience">Experience</a></li>
+                <li><a href="./projects.html" id="projects">Projects</a></li>
+                <li><a href="./contact.html" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+         <section class="projects-hero">
+
+        <h1>Projects</h1>
+
+        <p>
+            A collection of my engineering and development projects.
+        </p>
+
+    </section>
+
+    <!-- Filter -->
+    <section class="project-filter">
+
+        <div class="filter-title">
+
+            <h2>Filter Projects</h2>
+
+        </div>
+
+        <div class="filter-buttons">
+
+            <button class="active" data-filter="all">
+                All
+            </button>
+
+            <button data-filter="engineering">
+                Engineering
+            </button>
+
+            <button data-filter="web">
+                Web Development
+            </button>
+
+            <button data-filter="academic">
+                Academic
+            </button>
+
+            <button data-filter="personal">
+                Personal
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section class="projects">
+
+        <!--
+            JavaScript inserts all project cards here
+        -->
+
+        <div
+            id="projects-container"
+            class="projects-grid">
+
+
+        </div>
+       
+             
+    </main>
+
+    <footer>
+        <p><span>©<span id="current-year"></span> ❖ Luis Quezada ❖ Qro, México</span></p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+</html>

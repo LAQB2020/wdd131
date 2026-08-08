@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 Final Project</title>
+
+    <meta name="description" content="WDD 131  Dynamic Web Fundamentals  Luis Quezada. This is my final project Luis Quezada Engineering Portfolio ">
+    <meta name="author" content="Luis Quezada">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    
+    
+    <script src="./scripts/footer.js" defer ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./images/logo.svg" alt="Mylogo">
+        <button type="button" id="menu"></button>        
+        <nav>
+            <ul class="navigation">
+                <li><a href="./index.html" id="home">Home</a></li>
+                <li><a href="./experience.html" id="experience">Experience</a></li>
+                <li><a href="./projects.html" id="projects">Projects</a></li>
+                <li><a href="./contact.html" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section class="contact-hero">
+
+            <div class="container">
+
+                <h1 class="section-title">
+                    LET'S CONNECT
+                </h1>
+
+                <span class="section-line"></span>
+
+                <p class="section-subtitle">
+                    Have an opportunity, question, or just want to say hello?
+                    I'd love to hear from you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= CONTACT CONTENT ================= -->
+
+        <section class="contact-section">
+
+            <div class="container contact-grid">
+
+
+                <!-- ================= CONTACT FORM ================= -->
+
+                <div class="contact-form-container">
+
+                    <div class="contact-heading">
+
+                        <span class="heading-line"></span>
+
+                        <span class="contact-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </span>
+
+                        <h2>
+                            CONTACT FORM
+                        </h2>
+
+                        <span class="heading-line"></span>
+
+                    </div>
+
+
+                    <form
+                        id="contact-form"
+                        class="contact-form"
+                        action="#"
+                        method="POST">
+
+
+                        <!-- Name -->
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                                autocomplete="name"
+                            >
+
+                        </div>
+
+
+                        <!-- Email -->
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                                autocomplete="email"
+                            >
+
+                        </div>
+
+
+                        <!-- Subject -->
+
+                        <div class="form-group">
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Message -->
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                required>
+                            </textarea>
+
+                        </div>
+
+
+                        <!-- Submit -->
+
+                        <button
+                            type="submit"
+                            class="contact-submit">
+
+                            Send Message
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+
+                <!-- ================= OTHER WAYS TO CONNECT ================= -->
+
+                <div class="contact-info-container">
+
+                    <div class="contact-heading">
+
+                        <span class="heading-line"></span>
+
+                        <span class="contact-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </span>
+
+                        <h2>
+                            OTHER WAYS TO CONNECT
+                        </h2>
+
+                        <span class="heading-line"></span>
+
+                    </div>
+
+
+                    <!-- LinkedIn -->
+
+                    <a
+                        href="#"
+                        class="contact-method"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <div class="contact-method-icon">
+
+                            <i class="fa-brands fa-linkedin-in"></i>
+
+                        </div>
+
+                        <div class="contact-method-content">
+
+                            <h3>
+                                LinkedIn
+                            </h3>
+
+                            <p>
+                                linkedin.com/in/luisquezada
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- GitHub -->
+
+                    <a
+                        href="#"
+                        class="contact-method"
+                        target="_blank"
+                        rel="noopener noreferrer">
+
+                        <div class="contact-method-icon">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </div>
+
+                        <div class="contact-method-content">
+
+                            <h3>
+                                GitHub
+                            </h3>
+
+                            <p>
+                                github.com/luisquezada
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <!-- Email -->
+
+                    <a
+                        href="mailto:luisquezada.engineering@gmail.com"
+                        class="contact-method">
+
+                        <div class="contact-method-icon">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                        </div>
+
+                        <div class="contact-method-content">
+
+                            <h3>
+                                Email
+                            </h3>
+
+                            <p>
+                                luisquezada.engineering@gmail.com
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+             
+    </main>
+
+    <footer>
+        <p><span>©<span id="current-year"></span> ❖ Luis Quezada ❖ Qro, México</span></p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+</html>

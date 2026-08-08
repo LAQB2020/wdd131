@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD131 Final Project</title>
+
+    <meta name="description" content="WDD 131  Dynamic Web Fundamentals  Luis Quezada. This is my final project Luis Quezada Engineering Portfolio ">
+    <meta name="author" content="Luis Quezada">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/experience.css">
+    
+    
+    <script src="./scripts/footer.js" defer ></script>
+    <script src="./scripts/global-variables.js" defer ></script>
+     <script src="./scripts/experience.js" defer ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="./images/logo.svg" alt="Mylogo">
+        <button type="button" id="menu"></button>        
+        <nav>
+            <ul class="navigation">
+                <li><a href="./index.html" id="home">Home</a></li>
+                <li><a href="./experience.html" id="experience">Experience</a></li>
+                <li><a href="./projects.html" id="projects">Projects</a></li>
+                <li><a href="./contact.html" id="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       <section class="experience-hero">
+
+            <div class="container">
+
+                <h1 class="section-title">
+                    EXPERIENCE
+                </h1>
+
+                <span class="section-line"></span>
+
+                <p class="section-subtitle">
+                    Professional experience in aerospace engineering,
+                    structural analysis and manufacturing.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROFESSIONAL EXPERIENCE ================= -->
+
+        <section class="experience-section">
+
+            <div class="container">
+
+                <!--
+                    JavaScript will generate the experience cards here.
+                -->
+                <div
+                    id="experience-container"
+                    class="experience-grid">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ENGINEERING SKILLS ================= -->
+
+        <section class="skills-section">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    ENGINEERING SKILLS
+                </h2>
+
+                <span class="section-line"></span>
+
+                <!--
+                    JavaScript will generate the skills here.
+                -->
+                <div
+                    id="skills-container"
+                    class="skills-grid">
+                </div>
+
+            </div>
+
+        </section>
+
+             
+    </main>
+
+    <footer>
+        <p><span>©<span id="current-year"></span> ❖ Luis Quezada ❖ Qro, México</span></p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    
+</body>
+</html>
