@@ -402,3 +402,25 @@
     }
 
 }
+
+.message-counter {
+    margin-top: 35px;
+}
+
+.message-counter-content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.message-counter-content p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+
+.message-counter-content strong {
+    display: block;
+    font-size: 2.5rem;
+    color: var(--navyblue);
+    font-weight: 700;
+}
